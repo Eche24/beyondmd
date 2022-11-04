@@ -1,4 +1,4 @@
-# Beyondmd Project
+# BeyondMD Project
 
 Here are the prompts:
 
@@ -14,4 +14,4 @@ docker-compose build
 ```
 ```
 docker-compose up -d   # Start the container in detach mode.
-`
+```
