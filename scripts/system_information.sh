@@ -1,8 +1,8 @@
 #!/bin/bash
 # Author: Eche Ngbede
-# Description: This script will list system information, CPU temperature, Memory usage, and upgradable package.
+# Description: This script will list system information, memory usage, and pgradable package.
 # Date: 11/03/2022
-# Modified: 11/04/2022
+# Modified: 11/03/2022
 
 echo "Hostname:"
 hostname
@@ -25,7 +25,7 @@ echo "-------------------------------"
 
 echo "System information:"
 hostnamectl | grep  -iE "Kernel|operating"
-lscpu | head -n 19
+lscpu | head -n 15
 echo "-------------------------------"
 
 echo "Disk and memory usage:"
@@ -38,7 +38,6 @@ top -b | head -10
 echo "-------------------------------"
 
 echo "List of upgradeable package:"
-sudo apt update
 apt list --upgradable
 
 

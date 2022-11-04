@@ -1,4 +1,4 @@
-# BeyondMD Project
+# Interview Assignments
 
 Here are the prompts:
 
