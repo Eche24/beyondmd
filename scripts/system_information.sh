@@ -34,10 +34,6 @@ free -h | grep m
 df -Th 
 echo "-------------------------------"
 
-echo "CPU temperature"
-
-echo "-------------------------------"
-
 echo "processes activity:"
 top -b | head -10 
 echo "-------------------------------"
