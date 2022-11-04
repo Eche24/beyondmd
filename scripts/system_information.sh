@@ -58,7 +58,3 @@ apt list --upgradable
 
 
 
-
-
-
-
