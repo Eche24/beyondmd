@@ -32,26 +32,12 @@ echo "-------------------------------"
 
 echo "Disk and memory usage:"
 free -h | grep m
-df -Th 
+df -Th
 echo "-------------------------------"
 
 echo "processes activity:"
-top -b | head -10 
+top -b | head -10
 echo "-------------------------------"
 
 echo "List of upgradeable packages:"
 apt list --upgradable
-
-
-
-
-
-
-
-
-
-
-
-
-
-
