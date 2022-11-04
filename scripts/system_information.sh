@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Eche Ngbede
-# Description: This script will list system information, memory usage, and pgradable package.
+# Description: This script will list system information, memory usage, and pgradable packages.
 # Date: 11/03/2022
 # Modified: 11/03/2022
 
@@ -39,7 +39,7 @@ echo "processes activity:"
 top -b | head -10 
 echo "-------------------------------"
 
-echo "List of upgradeable package:"
+echo "List of upgradeable packages:"
 apt list --upgradable
 
 
