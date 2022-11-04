@@ -5,7 +5,6 @@
 # Modified: 11/04/2022
 
 
-
 echo "CPU temperature:"
 
 CPU_TEMP_FILE=/sys/class/thermal/thermal_zone0/temp

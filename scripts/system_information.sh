@@ -4,9 +4,11 @@
 # Date: 11/03/2022
 # Modified: 11/03/2022
 
+
 echo "Hostname:"
 hostname
 echo "-------------------------------"
+
 echo "Date:"
 date
 echo "-------------------------------"
