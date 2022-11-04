@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Eche Ngbede
-# Description: This script will list CPU temperature.
+# Description: This script will get CPU temperature.
 # Date: 11/04/2022
 # Modified: 11/04/2022
 

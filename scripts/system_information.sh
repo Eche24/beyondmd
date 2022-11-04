@@ -1,8 +1,8 @@
 #!/bin/bash
 # Author: Eche Ngbede
-# Description: This script will list system information, memory usage, and pgradable packages.
+# Description: This script will list system information, memory usage, and ugradable packages.
 # Date: 11/03/2022
-# Modified: 11/03/2022
+# Modified: 11/04/2022
 
 
 echo "Hostname:"
