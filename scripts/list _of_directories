@@ -1,0 +1,7 @@
+#!/bin/bash
+# Author: Eche Ngbede
+# Description: To obtain a full list of directories under / along with their size.
+# Date: 01/22/2023
+# Modified: 01/22/2023
+
+sudo du --max-depth=1 -hx /
