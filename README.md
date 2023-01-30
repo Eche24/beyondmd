@@ -1,4 +1,3 @@
-# Interview Assignments
 
 Here are the prompts:
 
